@@ -10,7 +10,7 @@ resource "aws_macie2_classification_job" "classification_job1" {
   s3_job_definition {
     bucket_definitions {
       account_id = var.classification_job1_account_id
-      buckets    = ["sensitive-data-bucket-name"]
+      buckets    = var.classification_job1_buckets
     }
   }
   tags = {
