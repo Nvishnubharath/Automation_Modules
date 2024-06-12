@@ -8,7 +8,7 @@ AWS SQS : Simple Queue Service is a fully managed message queuing service.
 -->sqs_managed_sse_enabled : Boolean to enable server-side encryption (SSE) of message content with SQS-owned encryption keys.
 2)resource "aws_sqs_queue_policy" Allows you to set a policy of an SQS Queue.
 3)aws_caller_identity data source is used to get the information about current aws user.
-For running the application
+4)For running the application
 --> terraform init
 --> terraform plan
 --> terraform apply
