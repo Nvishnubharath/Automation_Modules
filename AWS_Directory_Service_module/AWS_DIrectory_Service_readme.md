@@ -5,7 +5,7 @@ it easier to set up and run directory services in the AWS Cloud.
 -->name : name of the directory service 
 -->password : password for the initial user of the directory service
 --> vpc_settings : This block specifies the VPC (Virtual Private Cloud) and subnets in which the directory service will be deployed.
-2)
+2)aws_vpc and aws_subnet resources are used to create VPC and Subnets
 3)For running the application
 --> terraform init
 --> terraform plan
