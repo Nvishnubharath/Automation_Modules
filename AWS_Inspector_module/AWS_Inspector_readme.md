@@ -19,5 +19,4 @@ These are the rules to be used during the run.
 4)For running the application
 --> terraform init
 --> terraform plan
---> terraform apply
-to destory --> terraform destroy
+AWS Inspector is paid service so i did'nt check terraform apply.
