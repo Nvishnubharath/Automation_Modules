@@ -1,0 +1,10 @@
+sqs_queue_1_name = "sqs_queue_1"
+sqs_queue_1_delay_seconds = 10
+sqs_queue_1_max_message_size = 2048
+sqs_queue_1_message_retention_seconds = 86400
+sqs_queue_1_receive_wait_time_seconds = 10
+sqs_queue_1_sqs_managed_sse_enabled = true
+team = "CloudOps"
+environment = "Practice"
+owner = "Vishnu Bharath Narandas"
+owner_email = "narandasvishnubharath@gmail.com"
