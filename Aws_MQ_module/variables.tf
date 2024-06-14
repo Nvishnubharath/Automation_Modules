@@ -23,6 +23,26 @@ variable "configuration_name" {
   description = "The name of the configuration"
   type        = string
 }
+variable "from_port_var" {
+  description = "From port"
+  type = number
+  
+}
+variable "to_port_var" {
+  description = "To port"
+  type = number
+  
+}
+variable "protocal" {
+  description = "Protocal"
+  type = string
+  
+}
+variable "cidr_blocks" {
+  description = "CIDR blocks"
+  type = list(string)
+  
+}
 
 variable "configuration_description" {
   description = "The description of the configuration"
