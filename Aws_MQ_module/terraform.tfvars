@@ -13,4 +13,8 @@ team                           = "CloudOps"
 environment                    = "Practice"
 owner                          = "Vishnu Bharath Narandas"
 owner_email                    = "narandasvishnubharath@gmail.com"
+from_port_var                  = 8162
+to_port_var                    = 8162
+protocal                       = "tcp"
+cidr_blocks                    = ["0.0.0.0/0"]
 
