@@ -45,11 +45,11 @@ resource "aws_security_group" "broker_1_sg" {
   name_prefix = var.aws_security_group_name_prefix
   vpc_id      = aws_vpc.broker_1_vpc.id
 
-  ingress {
-    from_port   = 8162
-    to_port     = 8162
-    protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
+ ingress {
+    from_port   = var.from_port_var
+    to_port     = var.to_port_var
+    protocol    = var.protocal
+    cidr_blocks = var.cidr_blocks
   }
 }
 
